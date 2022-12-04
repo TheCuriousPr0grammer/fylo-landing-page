@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+:root {
+	/* Primary */
+	--very-dark-blue: hsl(243, 87%, 12%);
+	--desaturated-blue: hsl(238, 22%, 44%);
+	/* Accent */
+	--bright-blue: hsl(224, 93%, 58%);
+	--cyan: hsl(170, 45%, 43%);
+
+	/* Neutral */
+	--light-grayish-blue: hsl(240, 75%, 98%);
+	--light-gray: hsl(0, 0%, 75%);
+
+	/* TYPOGRAPHY */
+
+	/* For headings,call-to-actions,header navigation */
+	--font-family-cta: "Raleway", sans-serif;
+	/* For Body */
+	--font-family-body: "Open Sans", sans-serif;
+}
+
+::placeholder {
+	color: var(--light-gray);
+}
+
+body {
+	background-color: white;
+}
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+html {
+	font-family: var(--font-family-body);
+}
+
+h1,
+h2 {
+	font-family: var(--font-family-cta);
+	font-weight: bold;
+}
+
+button {
+	width: 100%;
+	background-color: var(--bright-blue);
+	padding: 0.75rem;
+	font-family: var(--font-family-cta);
+	font-weight: bold;
+	color: white;
+	border: none;
+	border-radius: 0.25rem;
+}
+input {
+	width: 100%;
+	padding: 0.75rem;
+	border-radius: 0.25rem;
+	border: 1px solid black;
+}
